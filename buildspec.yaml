@@ -7,9 +7,4 @@ phases:
     commands:
       - export BUCKET=lambda-deployment-artifacts-rayas-1
       - echo "first serverless deployment"
-      - aws cloudformation package --template-file template.yml --s3-bucket $BUCKET --output-template-file outputtemplate.yml
-artifacts:
-  type: zip
-  files:
-    - template.yml
-    - outputtemplate.yml
+      
