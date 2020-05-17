@@ -8,5 +8,6 @@ phases:
       - export BUCKET=lambda-deployment-artifacts-rayas-1
       - echo "first serverless deployment"
       - echo "testing PR trigger"
+      - cat buildspec.yaml
       
       
